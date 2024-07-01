@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Akrab_ 680273720</name>
+   <tag></tag>
+   <elementGuidId>3fd3d1d6-d73e-41bb-b43d-5eb3940cb889</elementGuidId>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>374b6dc6-f0ed-447a-ae7e-92161100c8ab</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.3.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>http://10.23.40.58:9068/get_next_best_offers?SUBSCRIBER_ID=680273720&amp;CHANNEL_NAME=${chnl_nameOI}&amp;LOCATION=XL_Store*Section_7&amp;CGI_NAME=${cgi_default}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.chnl_nameOI</defaultValue>
+      <description></description>
+      <id>72efd577-23a7-4131-9f87-859e0ca72324</id>
+      <masked>false</masked>
+      <name>chnl_nameOI</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.cgi_default</defaultValue>
+      <description></description>
+      <id>a3cee855-9d2f-4adf-925a-44c78427c719</id>
+      <masked>false</masked>
+      <name>cgi_default</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
